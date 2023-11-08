@@ -1,0 +1,165 @@
+*{
+margin: 0;
+padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 80%;
+
+}
+.navbar{
+    display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0%;
+cursor: pointer;
+}
+.nav-list{
+    width: 50%;
+    /*background-color: black;*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+
+}
+.nav-list li a{
+text-decoration: none;
+color: whitesmoke;
+
+}
+.nav-list li a:hover{
+color: aqua;
+}
+.rightNav{
+    /*background-color: aqua;*/
+    width: 50%;
+text-align: right;
+}
+#Search{
+    padding: 5px;
+    font-size: 20px;
+border: 2px solid gray;
+border-radius: 9px;
+
+}
+.background{
+    background:rgba(0, 0, 0, 0.5) url(img/new_york_city_with_skyscraper_buildings_under_cloudy_sky_during_sunrise_4k_hd_new_york-3840x2160.jpg);
+   background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+align-items: center;
+color: rgb(239, 220, 197);
+}
+.fristHalf{
+height: 80%;
+flex-direction: column;
+display: flex;
+justify-content: center;
+}
+.secondHalf{
+    .travelimage{
+        filter: drop-shadow(0 0 10px #3aa6f3);
+    animation: glow 3ms infinite;
+        
+    }
+    @keyframes glow{
+        0%{
+            filter: drop-shadow(0 0 10px #3aa6f3);
+        }
+        100%{
+            filter: drop-shadow(0 0 25px #3aa6f3,);
+        }
+    } 
+
+}
+.text-big{
+font-size: 50px;
+}
+
+.text.small{
+   font-size: 25px;
+
+}
+.btn{
+
+
+    padding: 8px 20px;
+    margin: 8px 0;
+    border:2px solid snow;
+    background:none;
+     border-radius :8px; 
+    background-size: auto;
+    background-blend-mode: lighten;
+cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.secRight{
+   align-items: center;
+    height: 500px;
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+max-width: 80%;
+ margin: auto
+}
+.btn:hover{
+    color: azure;
+}
+.secRight{
+    height: 500px;
+
+}
+/* 
+img/Screenshot_2023-11-04_105434-removebg-preview.png{
+    filter: drop-shadow(0 0 10px #3aa6f3);
+animation: glow 3ms infinite;
+    
+}
+@keyframes glow{
+    0%{
+        filter: drop-shadow(0 0 10px #3aa6f3);
+    }
+    100%{
+        filter: drop-shadow(0 0 25px #3aa6f3,);
+    }
+} */
+
+/* .flight001{
+    position: left;
+padding: 8px 20px;
+    margin: 8px 0;
+    border:2px solid snow;
+    background:none;
+     border-radius :8px; 
+    background-size: auto;
+    background-blend-mode: lighten;
+cursor: pointer;
+}
+.galleryofflight{ */
+.thumbnail{
+    img {
+        width: 100%; /* or any custom size */
+        height: 100%; 
+        object-fit: contain;
+    }
+   
+}
